@@ -1,1 +1,3 @@
-# odi-landing-page
+# odin-landing-page
+
+create the landing page using flexbox
