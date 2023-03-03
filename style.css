@@ -59,14 +59,49 @@ html {
     font-size: 18px;
 }
 
-.imgs img {
+/*.imgs img {
     width: 300px;
     height: auto;
     flex: 1 1 auto;
     border: #3882f6;
     border-width: 5px;
+}*/
+.box {
+    width: 250px;
+    height: 250px;
+    border: #3882f6;
+    border-width: 20px;
+    border-radius: 8px;
+    /*background-image: url("./images/food.jpg");*/
+    background-size: 250px;
 }
 
+.one {
+    background-image: url("./images/bath.jpg");
+}
+
+.two {
+    background-image: url("./images/food.jpg");
+}
+
+.three {
+    background-image: url("./images/sleep.jpg");
+}
+
+.four {
+    background-image: url("./images/wasted.jpg");
+}
+
+.sub {
+    text-align: center;
+    width: 250px;
+}
+
+.pics {
+    display:flex;
+    justify-content: space-around;
+
+}
 a {
     text-decoration: none;  
     font-weight: bold;
@@ -101,5 +136,5 @@ h1 {
     font-weight: 1000px;
     color: #1f2937;
     text-align: center;
-    margin-top: 100px;
+    margin: 100px;
  }
