@@ -1,16 +1,12 @@
 body {
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
     color:#1f2937
    
-}
-
-html {
-    overflow: scroll;
 }
 
 
@@ -26,18 +22,16 @@ html {
     gap: 40px;
 }
 
+
 .home a { 
     color: #f9faf8;
     font-size: 24px;
-    flex: 1;
-
-}
+    }
 
 
 
 .heroText {
     width: 500px;
-    flex: 1 1 auto;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -46,7 +40,10 @@ html {
 .links a {
     color: #e5e7eb;
     font-size: 18px;
+    
 }
+
+
 
 .box {
     width: 250px;
@@ -82,7 +79,7 @@ html {
 .pics {
     display:flex;
     justify-content: space-around;
-    flex: 0;
+    flex-wrap: wrap;
 }
 
 .secTwo {
@@ -90,17 +87,20 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 100px 200px;
 }
 
 .author {
     font-size: 24px;
     font-weight: bold;
-    width: 600px;
+    max-width: 70%;
     align-self: end;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+}
 .call {
     width: 800px;
     height: 150px;
@@ -116,6 +116,12 @@ html {
  .call p {
     color: #e5e7eb;
  }
+
+ nav {
+    background: #1f2937;
+    padding: 20px;
+ }
+
 a {
     text-decoration: none;  
     font-weight: bold;
@@ -139,6 +145,8 @@ button {
     color: #e5e7eb;
     font-weight: 700;
     border-style: solid;
+    flex: 0;
+    
   
 }
 
@@ -162,15 +170,12 @@ h1 {
 
  header {
     background: #1f2937;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 200px;
  }
 
  header img {
+    
     width: 500px;
     height: auto;
-    flex: 1 1 auto;
 }
 
 q  {
@@ -178,7 +183,7 @@ q  {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-    width: 800px;  
+    max-width: 70%;  
 }
 
 h3 {
